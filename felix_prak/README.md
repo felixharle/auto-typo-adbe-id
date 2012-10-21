@@ -8,12 +8,9 @@ We set as our goal to create a script that uses highlight data as input (differe
 Launch the script below to see our result or follow these steps to build your own visualization:
 
 1.  Gather some markdown documents containing your text and the highlights (represented by bold text)
-2.  Convert them into HTML using the following tool by Daring Fireball http://goo.gl/6rUzZ
+2.  Convert them into HTML using [this tool by Daring Fireball](http://daringfireball.net/projects/markdown/dingus)
 (just paste the markdown content of your documents underneath each other in the same box and click "Convert")
 3.  Copy the HTML output and paste it into our custom built tool below to extract the highlight data for use in InDesign
-
-Include widget? https://gist.github.com/3923596
-Otherwise please link to http://www.felixharle.com/extract/
 
 4.  Copy the output of our tool and paste it into the marked area in highlight.jsx (make sure to replace the text we used with the one you want to use as well)
 5.  Save and run to get the visualization
@@ -21,7 +18,8 @@ Otherwise please link to http://www.felixharle.com/extract/
 highlight.jsx
 ---
 ![TEASER IMAGE](https://raw.github.com/fabiantheblind/auto-typo-adbe-id/master/felix_prak/highlight_teaser_fp.png)
-Basically, the script creates a text frame for each highlight and sets it's opacity to a low level. All these text frames are then stacked over each other, which results in adjoining transparencies in places, that were highlighted by more than one person.
+
+Basically, the script creates a text frame for each highlight and sets it's opacity to a low level. All these text frames are then stacked over each other, which results in adjoining transparencies in places that were highlighted by more than one person.
 [link to your script](https://raw.github.com/fabiantheblind/auto-typo-adbe-id/master/felix_prak/highlight.jsx)
 
 Note  
